@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#menu:hover {
+  color: coral;
+}
+
+#icons {
+  transition: all ease-in-out 0.3s;
+}
+
+#icons:hover {
+  cursor: pointer;
+  color: coral;
+}
+
+#selectButton {
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding-left: 5px;
 }
