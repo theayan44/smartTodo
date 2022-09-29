@@ -61,13 +61,13 @@ export const AddTodo = (props) => {
             props.onAdd(title, desc, important);
             setTimeout(() => {
               alert("Todo added. Check the List...");
-              window.location.reload();
+              window.location.reload(true);
             }, 500);
           }} className="btn btn-primary ms-3 btn shadow-sm">
             Add
           </button>
           <button
-            onClick={() => { window.location.reload() }}
+            onClick={() => { window.location.reload(true) }}
             type="submit"
             className="btn btn-outline-primary ms-3 btn shadow-sm"
           >
