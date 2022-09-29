@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Footer } from "./Footer";
 import Header from "./Header";
 
 export const AddTodo = (props) => {
+  // for Routing to Home Page after Update
+  const navigate = useNavigate();
+  const navigateToHome = () => {
+    navigate('/');
+  };
+
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [important, setimportant] = useState(false);
@@ -61,13 +68,13 @@ export const AddTodo = (props) => {
             props.onAdd(title, desc, important);
             setTimeout(() => {
               alert("Todo added. Check the List...");
-              window.location.reload(true);
+              navigateToHome();
             }, 500);
           }} className="btn btn-primary ms-3 btn shadow-sm">
             Add
           </button>
           <button
-            onClick={() => { window.location.reload(true) }}
+            onClick={() => { navigateToHome(); }}
             type="submit"
             className="btn btn-outline-primary ms-3 btn shadow-sm"
           >
