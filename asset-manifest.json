@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/smartTodo/static/css/main.ef06e82a.css",
-    "main.js": "/smartTodo/static/js/main.1dd88fda.js",
+    "main.js": "/smartTodo/static/js/main.527b1c34.js",
     "static/js/787.97a945da.chunk.js": "/smartTodo/static/js/787.97a945da.chunk.js",
     "static/media/bootstrap-icons.woff?": "/smartTodo/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/smartTodo/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/smartTodo/index.html",
     "main.ef06e82a.css.map": "/smartTodo/static/css/main.ef06e82a.css.map",
-    "main.1dd88fda.js.map": "/smartTodo/static/js/main.1dd88fda.js.map",
+    "main.527b1c34.js.map": "/smartTodo/static/js/main.527b1c34.js.map",
     "787.97a945da.chunk.js.map": "/smartTodo/static/js/787.97a945da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef06e82a.css",
-    "static/js/main.1dd88fda.js"
+    "static/js/main.527b1c34.js"
   ]
 }
